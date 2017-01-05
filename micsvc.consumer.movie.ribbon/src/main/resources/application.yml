@@ -1,0 +1,16 @@
+###############################################################################################
+# 代码地址（ 任选其一）
+# http://git.oschina.net/itmuch/spring-cloud-study/tree/master/microserviceconsumer-movie-ribbon
+# https://github.com/eacdy/spring-cloudstudy/tree/master/microservice-consumer-movie-ribbon
+###############################################################################################
+server:
+  port: 18101
+spring:
+  application:
+    name: micsvc-consumer-movie-ribbon
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8091/eureka/,http://peer2:8092/eureka
+  instance:
+    preferIpAddress: true

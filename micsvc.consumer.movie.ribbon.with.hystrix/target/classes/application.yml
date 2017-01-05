@@ -1,0 +1,18 @@
+###############################################################################################
+# 代码地址（ 任选其一）
+# 1. http://git.oschina.net/itmuch/spring-cloud-study/tree/master/microserviceconsumer-movie-ribbon-with-hystrix
+# 2. https://github.com/eacdy/spring-cloud-study/tree/master/microserviceconsumer-movie-ribbon-with-hystrix
+###############################################################################################
+server:
+  port: 18103
+spring:
+  application:
+    name: micsvc-consumer-movie-ribbon-with-hystrix
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8091/eureka/,http://peer2:8092/eureka
+  instance:
+    hostname: ribbon
+# 此处，preferIpAddress不设置或者设为false，不能设为true，否则影响turbine的测试。
+# turbine存在的问题：eureka.instance.hostname一致时只能检测到一个节点，会造成turbine数据不完整

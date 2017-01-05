@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringCloudMicSvcStudy.iml" filepath="$PROJECT_DIR$/SpringCloudMicSvcStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.consumer.movie.feign/micsvc.consumer.movie.feign.iml" filepath="$PROJECT_DIR$/micsvc.consumer.movie.feign/micsvc.consumer.movie.feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.consumer.movie.feign.with.hystrix/micsvc.consumer.movie.feign.with.hystrix.iml" filepath="$PROJECT_DIR$/micsvc.consumer.movie.feign.with.hystrix/micsvc.consumer.movie.feign.with.hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.consumer.movie.ribbon/micsvc.consumer.movie.ribbon.iml" filepath="$PROJECT_DIR$/micsvc.consumer.movie.ribbon/micsvc.consumer.movie.ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.consumer.movie.ribbon.with.hystrix/micsvc.consumer.movie.ribbon.with.hystrix.iml" filepath="$PROJECT_DIR$/micsvc.consumer.movie.ribbon.with.hystrix/micsvc.consumer.movie.ribbon.with.hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.discovery.eureka/micsvc.discovery.eureka.iml" filepath="$PROJECT_DIR$/micsvc.discovery.eureka/micsvc.discovery.eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.hystrix.dashboard/micsvc.hystrix.dashboard.iml" filepath="$PROJECT_DIR$/micsvc.hystrix.dashboard/micsvc.hystrix.dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micsvc.provider.user/micsvc.provider.user.iml" filepath="$PROJECT_DIR$/micsvc.provider.user/micsvc.provider.user.iml" />
+    </modules>
+  </component>
+</project>

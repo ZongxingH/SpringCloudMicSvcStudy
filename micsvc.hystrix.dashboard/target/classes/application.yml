@@ -1,0 +1,10 @@
+###############################################################################################
+# 代码地址（ 任选其一）
+# 1. http://git.oschina.net/itmuch/spring-cloud-study/tree/master/microserviceconsumer-movie-ribbon-with-hystrix
+# 2. https://github.com/eacdy/spring-cloud-study/tree/master/microserviceconsumer-movie-ribbon-with-hystrix
+###############################################################################################
+spring:
+  application:
+    name: hystrix-dashboard
+server:
+  port: 18105
